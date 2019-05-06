@@ -23,7 +23,7 @@ let package = Package(
             targets: ["SmokeAWSCredentials"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/amzn/smoke-aws.git", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/t089/smoke-aws.git", .branch("async-http-client")),
         .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/apple/swift-nio.git", from: "1.0.0"),
     ],
